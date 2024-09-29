@@ -1,0 +1,100 @@
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.welcome-section {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-section h1 {
+    font-weight: bold;
+    color: #343a40;
+}
+
+.welcome-section p {
+    color: #6c757d;
+}
+
+.welcome-section .btn {
+    border-radius: 30px;
+    padding: 10px 30px;
+    background: linear-gradient(45deg, #4e54c8, #8f94fb);
+    border: none;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.welcome-section .btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.icon-box {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px; /* Membuat sudut membulat */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+    transition: transform 0.3s; /* Transisi smooth saat hover */
+}
+
+.icon-box:hover {
+    transform: translateY(-5px); /* Efek hover */
+}
+
+.icon-box h3 { 
+    margin-top: 15px; /* Jarak atas judul */
+    /* font-family: 'Pacifico', cursive;  */
+}
+
+.icon-box p {
+    color: #666; /* Warna teks deskripsi */
+}
+
+.product-card {
+    max-width: 300px; /* Mengatur lebar maksimum kolom produk */
+    margin: auto; /* Mengatur agar kolom terpusat */
+    transition: transform 0.2s; /* Transisi untuk efek hover */
+}
+
+.product-card:hover {
+    transform: scale(1.05); /* Membesarkan kolom saat hover */
+}
+
+.footer-section {
+    position: relative;
+    padding: 40px 0;
+    color: white;
+    text-align: center;
+}
+
+.footer-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.footer-links,
+.footer-social,
+.footer-contact {
+    margin: 15px 0;
+    font-weight: bold;
+}
+
+.footer-icon {
+    width: 24px;
+    height: 24px;
+    margin: 0 10px;
+    transition: transform 0.3s;
+}
+
+.footer-icon:hover {
+    transform: scale(1.1);
+}
